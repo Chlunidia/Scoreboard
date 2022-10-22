@@ -35,6 +35,13 @@ class ScoreBoardApp extends StatelessWidget {
             ),
           ),
         ),
+        body: Column(
+          children: const <Widget>[
+            Spacer(),
+            ScoreBoard1(),
+            Spacer(),
+          ],
+        ),
       ),
     );
   }
