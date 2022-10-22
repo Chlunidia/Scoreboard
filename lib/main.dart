@@ -60,7 +60,11 @@ class _ScoreBoard1State extends State<ScoreBoard1> {
     return const Padding(
       padding: EdgeInsets.all(1),
       child: Center(
-        child: Card(),
+        child: Card(
+          child: SizedBox(
+            width: 300,
+            height: 80,),
+        ),
       ),
     );
   }
