@@ -39,3 +39,17 @@ class ScoreBoardApp extends StatelessWidget {
     );
   }
 }
+
+class ScoreBoard1 extends StatefulWidget {
+  const ScoreBoard1({super.key});
+
+  @override
+  State<ScoreBoard1> createState() => _ScoreBoard1State();
+}
+
+class _ScoreBoard1State extends State<ScoreBoard1> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
