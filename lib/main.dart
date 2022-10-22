@@ -41,6 +41,7 @@ class ScoreBoardApp extends StatelessWidget {
             Spacer(),
             ScoreBoard1(),
             ScoreBoard2(),
+            ScoreBoard3(),
             Spacer(),
           ],
         ),
