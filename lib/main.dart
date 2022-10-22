@@ -162,3 +162,17 @@ class _ScoreBoard1State extends State<ScoreBoard1> {
     );
   }
 }
+
+class ScoreBoard2 extends StatefulWidget {
+  const ScoreBoard2({super.key});
+
+  @override
+  State<ScoreBoard2> createState() => _ScoreBoard2State();
+}
+
+class _ScoreBoard2State extends State<ScoreBoard2> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
