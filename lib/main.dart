@@ -289,12 +289,38 @@ class ScoreBoard3 extends StatefulWidget {
 class _ScoreBoard3State extends State<ScoreBoard3> {
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.all(1),
+    return Padding(
+      padding: const EdgeInsets.all(1),
       child: Center(
         child: Card(
-          color: Color.fromARGB(255, 242, 235, 255),
+          color: const Color.fromARGB(255, 242, 235, 255),
           elevation: 5,
+          child: SizedBox(
+            width: 300,
+            height: 200,
+            child: Column(
+              children: const <Widget>[
+                Center(
+                  child: Card(
+                    color: Color.fromARGB(255, 239, 201, 255),
+                    child: SizedBox(
+                      width: 300,
+                      height: 80,
+                      child: Center(
+                        child: Text(
+                          "TEAM C",
+                          style: TextStyle(
+                              fontSize: 30,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
         ),
       ),
     );
