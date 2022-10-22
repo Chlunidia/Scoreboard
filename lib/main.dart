@@ -123,6 +123,24 @@ class _ScoreBoard1State extends State<ScoreBoard1> {
                       child: ElevatedButton(
                         onPressed: (() {
                           setState(() {
+                            while (count1 > 0) {
+                              count1 = 0;
+                            }
+                          });
+                        }),
+                        child: Row(
+                          children: const [
+                            Icon(Icons.restore),
+                            Text("Reset"),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10),
+                      child: ElevatedButton(
+                        onPressed: (() {
+                          setState(() {
                             count1 += 1;
                           });
                         }),
