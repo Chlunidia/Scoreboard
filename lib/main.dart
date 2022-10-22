@@ -80,9 +80,9 @@ class _ScoreBoard1State extends State<ScoreBoard1> {
                         child: Text(
                           "TEAM A",
                           style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold),
+                              fontSize: 30,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold),
                         ),
                       ),
                     ),
@@ -92,9 +92,9 @@ class _ScoreBoard1State extends State<ScoreBoard1> {
                   child: Text(
                     "$count1",
                     style: const TextStyle(
-                      fontSize: 50,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white),
+                        fontSize: 50,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white),
                   ),
                 ),
                 Row(
@@ -114,6 +114,22 @@ class _ScoreBoard1State extends State<ScoreBoard1> {
                           children: const [
                             Icon(Icons.arrow_downward),
                             Text("Down"),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10),
+                      child: ElevatedButton(
+                        onPressed: (() {
+                          setState(() {
+                            count1 += 1;
+                          });
+                        }),
+                        child: Row(
+                          children: const [
+                            Icon(Icons.arrow_upward),
+                            Text("Up"),
                           ],
                         ),
                       ),
