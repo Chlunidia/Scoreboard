@@ -350,6 +350,22 @@ class _ScoreBoard3State extends State<ScoreBoard3> {
                         ),
                       ),
                     ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10),
+                      child: ElevatedButton(
+                        onPressed: (() {
+                          setState(() {
+                            count3 += 1;
+                          });
+                        }),
+                        child: Row(
+                          children: const [
+                            Icon(Icons.arrow_upward),
+                            Text("Up"),
+                          ],
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ],
