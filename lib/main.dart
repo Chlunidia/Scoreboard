@@ -69,7 +69,7 @@ class _ScoreBoard1State extends State<ScoreBoard1> {
           elevation: 5,
           child: SizedBox(
             width: 300,
-            height: 200,
+            height: 220,
             child: Column(
               children: <Widget>[
                 const Center(
@@ -184,7 +184,7 @@ class _ScoreBoard2State extends State<ScoreBoard2> {
           elevation: 5,
           child: SizedBox(
             width: 300,
-            height: 200,
+            height: 220,
             child: Column(
               children: <Widget>[
                 const Center(
@@ -299,7 +299,7 @@ class _ScoreBoard3State extends State<ScoreBoard3> {
           elevation: 5,
           child: SizedBox(
             width: 300,
-            height: 200,
+            height: 220,
             child: Column(
               children: <Widget>[
                 const Center(
