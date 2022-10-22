@@ -63,7 +63,17 @@ class _ScoreBoard1State extends State<ScoreBoard1> {
         child: Card(
           child: SizedBox(
             width: 300,
-            height: 80,),
+            height: 80,
+            child: Center(
+              child: Text(
+                "TEAM A",
+                style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold),
+              ),
+            ),
+          ),
         ),
       ),
     );
