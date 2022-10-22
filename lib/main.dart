@@ -213,6 +213,29 @@ class _ScoreBoard2State extends State<ScoreBoard2> {
                         color: Colors.white),
                   ),
                 ),
+                Row(
+                  children: <Widget>[
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10),
+                      child: ElevatedButton(
+                        onPressed: (() {
+                          setState(() {
+                            count2 -= 1;
+                            if (count2 < 0) {
+                              (count2 = 0);
+                            }
+                          });
+                        }),
+                        child: Row(
+                          children: const [
+                            Icon(Icons.arrow_downward),
+                            Text("Down"),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ],
             ),
           ),
