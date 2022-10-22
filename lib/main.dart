@@ -18,10 +18,9 @@ class ScoreBoardApp extends StatelessWidget {
           title: const Text(
             'SCOREBOARD',
             style: TextStyle(
-                fontSize: 35, 
-                fontWeight: FontWeight.bold, 
-                color: Colors.white),
+                fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white),
           ),
+          centerTitle: true,
         ),
       ),
     );
