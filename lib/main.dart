@@ -21,6 +21,19 @@ class ScoreBoardApp extends StatelessWidget {
                 fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white),
           ),
           centerTitle: true,
+          flexibleSpace: Container(
+            alignment: Alignment.bottomCenter,
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: <Color>[
+                  Color.fromARGB(255, 248, 170, 196),
+                  Color.fromARGB(255, 160, 208, 248),
+                ],
+              ),
+            ),
+          ),
         ),
       ),
     );
