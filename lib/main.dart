@@ -176,10 +176,10 @@ class _ScoreBoard2State extends State<ScoreBoard2> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(1),
+      padding: const EdgeInsets.all(1),
       child: Center(
         child: Card(
-          color: Color.fromARGB(255, 242, 235, 255),
+          color: const Color.fromARGB(255, 242, 235, 255),
           elevation: 5,
           child: SizedBox(
             width: 300,
@@ -230,6 +230,22 @@ class _ScoreBoard2State extends State<ScoreBoard2> {
                           children: const [
                             Icon(Icons.arrow_downward),
                             Text("Down"),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10),
+                      child: ElevatedButton(
+                        onPressed: (() {
+                          setState(() {
+                            count2 += 1;
+                          });
+                        }),
+                        child: Row(
+                          children: const [
+                            Icon(Icons.arrow_upward),
+                            Text("Up"),
                           ],
                         ),
                       ),
