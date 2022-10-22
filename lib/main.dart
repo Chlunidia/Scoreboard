@@ -40,6 +40,7 @@ class ScoreBoardApp extends StatelessWidget {
           children: const <Widget>[
             Spacer(),
             ScoreBoard1(),
+            ScoreBoard2(),
             Spacer(),
           ],
         ),
