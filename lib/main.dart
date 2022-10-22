@@ -13,6 +13,7 @@ class ScoreBoardApp extends StatelessWidget {
       theme: ThemeData(
           colorSchemeSeed: const Color.fromARGB(255, 197, 176, 255),
           useMaterial3: true),
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: const Text(
@@ -58,7 +59,7 @@ class _ScoreBoard1State extends State<ScoreBoard1> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(1),
+      padding: const EdgeInsets.all(1),
       child: Center(
         child: Card(
           color: const Color.fromARGB(255, 242, 235, 255),
