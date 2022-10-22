@@ -8,6 +8,10 @@ class ScoreBoardApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      theme: ThemeData(
+          colorSchemeSeed: const Color.fromARGB(255, 197, 176, 255),
+          useMaterial3: true),
+    );
   }
 }
