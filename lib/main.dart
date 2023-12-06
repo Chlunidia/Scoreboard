@@ -68,7 +68,7 @@ class _ScoreBoard1State extends State<ScoreBoard1> {
           color: const Color.fromARGB(255, 242, 235, 255),
           elevation: 5,
           child: SizedBox(
-            width: 300,
+            width: 350,
             height: 220,
             child: Column(
               children: <Widget>[
@@ -76,7 +76,7 @@ class _ScoreBoard1State extends State<ScoreBoard1> {
                   child: Card(
                     color: Color.fromARGB(255, 255, 253, 201),
                     child: SizedBox(
-                      width: 300,
+                      width: 350,
                       height: 80,
                       child: Center(
                         child: Text(
@@ -183,7 +183,7 @@ class _ScoreBoard2State extends State<ScoreBoard2> {
           color: const Color.fromARGB(255, 242, 235, 255),
           elevation: 5,
           child: SizedBox(
-            width: 300,
+            width: 350,
             height: 220,
             child: Column(
               children: <Widget>[
@@ -191,7 +191,7 @@ class _ScoreBoard2State extends State<ScoreBoard2> {
                   child: Card(
                     color: Color.fromARGB(255, 213, 255, 201),
                     child: SizedBox(
-                      width: 300,
+                      width: 350,
                       height: 80,
                       child: Center(
                         child: Text(
@@ -298,7 +298,7 @@ class _ScoreBoard3State extends State<ScoreBoard3> {
           color: const Color.fromARGB(255, 242, 235, 255),
           elevation: 5,
           child: SizedBox(
-            width: 300,
+            width: 350,
             height: 220,
             child: Column(
               children: <Widget>[
@@ -306,7 +306,7 @@ class _ScoreBoard3State extends State<ScoreBoard3> {
                   child: Card(
                     color: Color.fromARGB(255, 239, 201, 255),
                     child: SizedBox(
-                      width: 300,
+                      width: 350,
                       height: 80,
                       child: Center(
                         child: Text(
